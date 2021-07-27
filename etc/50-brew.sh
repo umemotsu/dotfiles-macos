@@ -15,11 +15,7 @@ else
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
     echo_info "Export brew-specific variables"
-    if [ "$(uname -m)" = "arm64" ]; then
-        eval $(/opt/homebrew/bin/brew shellenv)
-    else
-        eval $(/usr/local/bin/brew shellenv)
-    fi
+    source "${DOT_ROOT}/dot/bash/inits/50-brew.sh"
 
     echo_info "Adding brew repositories..."
     run_verbosely brew tap "homebrew/core"
