@@ -33,6 +33,7 @@ brew "whalebrew"
 brew "zplug"
 brew "zsh"
 brew "sanemat/font/ricty", args: ["with-powerline"]
+cask "1password"
 cask "adobe-acrobat-reader"
 cask "alfred"
 cask "appcleaner"
@@ -93,7 +94,6 @@ cask "vlc"
 cask "webex-meetings"
 cask "webpquicklook"
 cask "zoom"
-mas "1Password", id: 443987910
 mas "BetterSnapTool", id: 417375580
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
