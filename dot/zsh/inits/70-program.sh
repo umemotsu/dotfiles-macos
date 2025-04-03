@@ -15,3 +15,8 @@ fi
 if type pipx >/dev/null 2>&1; then
     export PATH="${PATH}:${HOME}/.local/bin"
 fi
+
+# anyenv
+if type anyenv >/dev/null 2>&1; then
+    eval "$(anyenv init -)"
+fi
