@@ -20,3 +20,8 @@ fi
 if type anyenv >/dev/null 2>&1; then
     eval "$(anyenv init -)"
 fi
+
+# iterm2
+if [[ -e "${HOME}/.iterm2_shell_integration.zsh" ]]; then
+    source "${HOME}/.iterm2_shell_integration.zsh"
+fi
