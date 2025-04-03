@@ -25,3 +25,8 @@ fi
 if [[ -e "${HOME}/.iterm2_shell_integration.zsh" ]]; then
     source "${HOME}/.iterm2_shell_integration.zsh"
 fi
+
+# rust
+if type cargo >/dev/null 2>&1; then
+    export PATH="${HOME}/.cargo/bin:${PATH}"
+fi
