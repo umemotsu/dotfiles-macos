@@ -13,7 +13,7 @@ fi
 
 # pipx
 if type pipx >/dev/null 2>&1; then
-    export PATH="${PATH}:${HOME}/.local/bin"
+    export PATH="${HOME}/.local/bin:${PATH}"
 fi
 
 # anyenv
