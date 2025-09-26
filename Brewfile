@@ -1,6 +1,3 @@
-tap "homebrew/cask"
-tap "homebrew/cask-fonts"
-tap "homebrew/cask-versions"
 tap "sanemat/font"
 brew "colordiff"
 brew "coreutils"
