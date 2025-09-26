@@ -17,10 +17,6 @@ else
     echo_info "Export brew-specific variables"
     source "${DOT_ROOT}/dot/bash/inits/50-brew.sh"
 
-    echo_info "Adding brew repositories..."
-    run_verbosely brew tap "homebrew/core"
-    run_verbosely brew tap "homebrew/bundle"
-
     echo_info "Checking if any potential problems exist..."
     run_verbosely brew doctor || {
         echo_warning "Found some potential problem(s)."
