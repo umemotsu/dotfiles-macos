@@ -1,4 +1,3 @@
-tap "sanemat/font"
 brew "colordiff"
 brew "coreutils"
 brew "emacs"
@@ -27,7 +26,6 @@ brew "wget"
 brew "whalebrew"
 brew "zplug"
 brew "zsh"
-brew "sanemat/font/ricty", args: ["with-powerline"]
 cask "1password"
 cask "adobe-acrobat-reader"
 cask "alfred"
