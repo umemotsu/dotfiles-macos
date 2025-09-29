@@ -67,12 +67,12 @@ mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Kindle", id: 302584613
 mas "LINE", id: 539883307
-mas "Microsoft Remote Desktop", id: 1295203466
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "SketchyDraw", id: 543896183
 mas "Slack", id: 803453959
 mas "Table Tool", id: 1122008420
 mas "Texifier", id: 458866234
 mas "The Unarchiver", id: 425424353
+mas "Windows App", id: 1295203466
 mas "Xcode", id: 497799835
-mas "スケッチ風ドロー", id: 543896183
